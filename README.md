@@ -6,9 +6,9 @@ Artificial Intelligence-Driven Convolutional Neural Networks (CNNs) for Histopat
 ## Overview of project
 This repository contains code and resources for a deep learning project focused on the automated classification of metastatic breast cancer from histopathology image patches. The study compares three Convolutional Neural Network (CNN) architectures:
 
-1 **DenseNet-121** (pretrained, fine-tuned)
-2 **EfficientNet-B0** (lightweight, scalable)
-3 **Custom MM-SEN-Inspired Model** (designed for interpretability and efficiency)
+- **DenseNet-121** (pretrained, fine-tuned)
+- **EfficientNet-B0** (lightweight, scalable)
+- **Custom MM-SEN-Inspired Model** (designed for interpretability and efficiency)
 
 The models were trained and evaluated on the **PatchCamelyon (PCam)** dataset, leveraging data augmentation, transfer learning, fine-tuning, and model interpretation tools such as Grad-CAM.
 
