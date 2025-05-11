@@ -51,11 +51,11 @@ The models were trained and evaluated on the **PatchCamelyon (PCam)** dataset, l
 
 ## Results
 
-| Model              | Accuracy | Precision | Recall | F1 Score | AUC-ROC |
-|-------------------|----------|-----------|--------|----------|---------|
-| DenseNet-121       | 95.64%   | 96.01%    | 95.24% | 95.62%   | 95.64%  |
-| EfficientNet-B0    | 92.28%   | 91.17%    | 93.61% | 92.38%   | 92.28%  |
-| MM-SEN (Custom)    | 81.51%   | 85.61%    | 75.72% | 80.36%   | 81.51%  |
+| Model              | Accuracy % | Precision % | Recall % | F1 Score %| AUC-ROC % |
+|-------------------|-------------|-------------|----------|-----------|-----------|
+| DenseNet-121       | 95.45      | 95.69       | 95.18    | 95.43     | 95.45   |
+| EfficientNet-B0    | 91.40      | 89.32       | 94.03    | 91.62     | 97.45   |
+| MM-SEN (Custom)    | 79.94      | 82.46       | 76.01    | 79.10     | 79.93   |
 
 ## Visual Examples
 - Confusion matrices
@@ -75,4 +75,7 @@ MSc Data Science with Advanced Research
 - [Tan & Le, 2019] EfficientNet paper
 - [Zhong et al., 2020] DenseNet for cancer classification
 - [Veeling et al., 2018] PatchCamelyon dataset
+- Supervisor: Dr. Ralf Napiwotzki, for continuous guidance and support.
+- Personal Motivation: This research was inspired by the journey of overcoming breast cancer, highlighting the need for better diagnostic tools.
+- Family Support: Special thanks to my parents and family for their unwavering support throughout this project.
 
